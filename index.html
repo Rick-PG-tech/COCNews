@@ -4,20 +4,26 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Colorado Chinese News 科州華報</title>
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
-        <ul>
-			<li>Main</li>
-			<li class='sub-list'><a href=''>新聞</a>
-				<ul>
-				<li><a href=''>今日焦點</a></li>
-				   <li><a href=''>本地新聞</a>
-				   <li><a href=''>視頻新聞</a>
-				   <li><a href=''>工商新聞</a>
-				   <li><a href=''>社區動態</a>
-				   <li class='last'><a href=''>城市新聞</a></li>
-				</ul>
-			 </li>
-		</ul>
+		<div>
+			<img id='logo' src="img/LOGO1.jpg">
+		</div>
+		<div class='navigation'>
+		<ul>
+			<li><a href="#home">主頁</a></li>
+			<li><a href="#news">新聞</a></li>
+			<li class="dropdown">
+			  <a>今日焦點</a>
+			  <div class="dropdown-content">
+				<a href="#">本地新聞</a>
+				<a href="#">視頻新聞</a>
+				<a href="#">工商新聞</a>
+			  </div>
+			</li>
+			<li><a href=''>社區動態</a>
+		  </ul>
+		</div>
     </body>
 </html>
